@@ -17,7 +17,7 @@ p{
     color: #fff;
     clip-path: polygon(24% 0, 100% 0, 100% 100%, 1% 100%);
     margin-left: -7%;
-    padding-left: 205px;
+    padding-left: 170px;
     padding-top: 76px;
     border-radius:  0 7% 7% 0 ;
 }
@@ -35,13 +35,13 @@ p{
 .contain {
     display: flex;
     
-    height: 700px;
+    height: 85vh;
     border-radius: 10%;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 19px rgba(0, 0, 0, 0.22);
 }   
 
 .container {
-    margin: 4rem auto;
+    margin: 3rem auto;
     width: 80%;
     
 }
