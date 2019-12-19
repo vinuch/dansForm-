@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #0657cc;
+}
+p{
+    font-family: 'Futura Book', sans-serif;
+    font-size: 1.4rem;
+}
+
+.form-container {
+    flex-basis: 66%;
+    background-color: #0657cc;
+    color: #fff;
+    clip-path: polygon(24% 0, 100% 0, 100% 100%, 1% 100%);
+    margin-left: -7%;
+    padding-left: 205px;
+    padding-top: 76px;
+    border-radius:  0 7% 7% 0 ;
+}
+
+.img-container {
+    background: url("assets/andre-hunter-ugjPgy2BQug-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-basis: 50%;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    margin-right: -9%;
+    border-radius: 7% 0 0 7%;
+}
+
+.contain {
+    display: flex;
+    
+    height: 700px;
+    border-radius: 10%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 19px rgba(0, 0, 0, 0.22);
+}   
+
+.container {
+    margin: 4rem auto;
+    width: 80%;
+    
+}
+
+label {
+    color: #b3b3b3;
+    font-family: 'Montesrrat-bold', sans-serif;
+    font-size: 1.7rem;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-family: 'Montesrrat-bold', sans-serif;
+    padding: 1.4rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+input::placeholder{
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-submit {
+    background: #fff;
+    color: #0657cc;
+    padding: 1rem 3rem;
+    border-style: none;
+    border-radius: 8%;
+    font-weight: bold;
+    font-size: 1.4rem;
+    /* letter-spacing: 2px; */
+    margin-top: 1.5rem;
+}
